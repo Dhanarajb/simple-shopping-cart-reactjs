@@ -1,10 +1,27 @@
 .App {
   text-align: center;
 }
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(221, 230, 206);
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+header{
+  height: 50px;
+  background: linear-gradient(orange,white,green);
+  width: 100%;
+  top: -10;
+}
+footer{
+  height: 50px;
+  background-color: gray;
+  width: 100%;
+  bottom: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
